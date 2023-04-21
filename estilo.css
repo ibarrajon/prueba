@@ -1,0 +1,73 @@
+.logo {
+    animation-name:rotar;
+    animation-duration: 4s;
+    animation-timing-function: ease;
+}
+
+@keyframes rotar { 
+    0%{
+        opacity: 0%;
+    }
+
+    50%{
+        opacity: 50%;
+    }
+
+    100% { 
+        transform:rotate(360deg); 
+    } 
+}
+
+.cabecera {
+    animation-name:aparecer-izq;
+    animation-duration: 3s;
+}
+
+@keyframes aparecer-izq { 
+    0% {
+        margin-left: 100%;     
+    }
+    
+    100% {
+        margin-left: 0%;       
+    }
+}
+
+.logo,.cabecera,.productos{     
+    display:flex;         
+    justify-content:center;
+} 
+
+.principal{
+    display:flex;
+    margin-top: 1%;
+}
+#separador{
+    margin-top: 1%;
+    margin-block-end: 1%;
+    text-align: center;
+    background-color: #e3f2fd";
+}
+.productos img{
+    width: 95%; 
+    height:auto;
+}
+footer{
+    background-color: #e3f2fd;;
+    margin-top: 1%;  
+}
+
+.card{
+    width: 95%;
+    display:flex;
+    margin: 2%;
+}
+
+.contacto{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 1%;
+    
+    background-color:azure; 
+    padding: 2%;       
+}

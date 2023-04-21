@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+
+<html lang="ES"> 
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Evaluación</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+        <!--link iconos-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"> 
+    </head>
+    <body>
+        <header>
+            <!--navbar-->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark"><!-- fixed-top">-->
+                <div class="container">
+                  <a class="navbar-brand" href="index.html">Inicio</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="login.html">Login</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="subscripcion.html">Subscríbete!</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Buscar película o serie" aria-label="Search">
+                        <button type="submit" class="btn btn-secondary">
+                        <i class="bi-search" title="search" aria-hidden="true"></i>
+                        <span class="sr-only d-none"></span>
+                        </button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+        </header>
+
+        <!--seccion 1 - producto sugerido -opcion de prueba-->        
+        <div class="text-bg-dark me-md-3 pt-2 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+            <div class="my-2 py-3">
+                <h1 class="display-5"><font style="vertical-align: inherit;">Producto destacado</font></h2>
+                <p class="lead"><font style="vertical-align: inherit;">Conocé esta maravilla.</font></p>
+            </div>
+            <div class="bg-light shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+                <img src="https://dummyimage.com/600x400/7dc4e4/fff" class="img-fluid" alt="dummy image">
+            </div>
+        </div>
+     
+
+        <!--seccion 1 - producto sugerido--> 
+        
+        <!--        
+        <section class="pb-3 pt-2">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <img src="https://dummyimage.com/600x400/7dc4e4/fff" class="img-fluid" alt="dummy image">
+                    </div>
+                    <div class="col-lg-6">
+                        <h1 class="display-1">Producto principal - Sugerido</h1>
+                        <p class="lead">Te ofrecemos nuestro mejor producto para que puedas disfrutar de él.</p>
+               
+                    </div>
+                </div>
+            </div>
+        </section>
+        -->
+
+        <!--seccion 2 - productos sugeridos-->
+
+        <hr class="featurette-divider">
+
+         <!--seccion 2 - productos sugeridos -opcion de prueba carrousel-->
+         <div class="container">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="https://dummyimage.com/1200x600/7dc4e4/fff" class="d-block img-fluid" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://dummyimage.com/1200x600/7dc4e4/fff" class="d-block img-fluid" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://dummyimage.com/1200x600/7dc4e4/fff" class="d-block img-fluid" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        
+        <!--seccion 3 - banner promocion de descuentos -->
+      
+        
+        <!--seccion 4 - categoría de productos sugeridos-->
+        <!---
+        <section class="pb-2 pt-3">
+            <div class="container">
+                <h2 class="text-center mb-2">Nuestras categorías</h2>
+                
+                <div class="row row-cols-2 row-cols-md-4 g-4">
+                    <div class="col">
+                    <div class="card">
+                        <img src="https://dummyimage.com/600x400/eed49f" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title"><a href="#" class="stretched-link">Categoría 1</a></h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col">
+                    <div class="card">
+                        <img src="https://dummyimage.com/600x400/eed49f" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title"><a href="#" class="stretched-link">Categoría 2</a></h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col">
+                    <div class="card">
+                        <img src="https://dummyimage.com/600x400/eed49f" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title"><a href="#" class="stretched-link">Categoría 3</a></h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col">
+                    <div class="card">
+                        <img src="https://dummyimage.com/600x400/eed49f" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title"><a href="#" class="stretched-link">Categoría 4</a></h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>       
+        </section> 
+        -->
+
+        <hr class="featurette-divider">
+
+        <!--seccion 4 - categoría de productos sugeridos circulos-->
+        <div class="container marketing">
+            <div class="row text-center">
+              <div class="col-lg-4">
+                <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"></rect></svg>
+        
+                <h2 class="fw-normal">Categoría 1</h2>
+                <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
+                <p><a class="btn btn-secondary" href="#">View details »</a></p>
+              </div><!-- /.col-lg-4 -->
+              <div class="col-lg-4">
+                <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+        
+                <h2 class="fw-normal">Categoría 2</h2>
+                <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
+                <p><a class="btn btn-secondary" href="#">View details »</a></p>
+              </div><!-- /.col-lg-4 -->
+              <div class="col-lg-4">
+                <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+        
+                <h2 class="fw-normal">Categoría 3</h2>
+                <p>And lastly this, the third column of representative placeholder content.</p>
+                <p><a class="btn btn-secondary" href="#">View details »</a></p>
+              </div><!-- /.col-lg-4 -->
+            </div><!-- /.row -->
+        </div>
+
+        <!--pie de pagina-->
+        <footer class="bg-dark pb-2 pt-3">
+            <div class="container">
+                <div class="row text-white">
+                    <div class="col-sm-6 col-md-3 col-lg-4">
+                        <!--logo del sitio-->
+                        <img src="https://dummyimage.com/150x150/8bd5ca/" class="img-fluid" alt="dummy image">
+                    </div>
+                    <div class="col-sm-6 col-md-3 col-lg-4">
+                        <h6>Seguinos:</h6>
+                        <ul class="list-unstyled">
+                            <li><i class="bi-facebook"></i> <a href="#">Facebook</a></li>
+                            <li><i class="bi-instagram"></i> <a href="#">Instagram</a></li>
+                            <li><i class="bi-twitter"></i> <a href="#">Twitter</a></li>
+                            <li><i class="bi-youtube"></i> <a href="#">YouTube</a></li>
+                            <li><i class="bi-linkedin"></i> <a href="#">LinkedIn</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3 col-lg-4">
+                        <ul class="list-unstyled">
+                            <li><a href="index.html">Inicio</a></li>
+                            <li><a href="acerca.html">Acerca de</a></li>
+                            <li><a href="contacto.html">Contacto</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    </body>
+</html>
